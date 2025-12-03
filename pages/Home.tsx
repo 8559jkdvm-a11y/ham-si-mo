@@ -22,7 +22,7 @@ const Home: React.FC = () => {
         <div className="relative container mx-auto px-4 text-center text-white z-10">
           <EditableText
             id="home_hero_title"
-            defaultText="장애인과 함께하는\n시민의 모임"
+            defaultText="장애인과 함께하는 시민의 모임"
             as="h1"
             multiline
             className="text-4xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-md whitespace-pre-line"
@@ -30,7 +30,7 @@ const Home: React.FC = () => {
           
           <EditableText
             id="home_hero_desc"
-            defaultText="함시모는 장애인이 차별 받지 않고 자아를 실현할 수 있도록 지원하고,\n비장애인과 어우러져 살아가는데 이바지하기 위한 모임입니다."
+            defaultText="함시모는 장애인이 차별 받지 않고 자아를 실현할 수 있도록 지원하고, 비장애인과 어우러져 살아가는데 이바지하기 위한 모임입니다."
             as="p"
             multiline
             className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light drop-shadow-sm leading-relaxed whitespace-pre-line"
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
           <span className="text-secondary font-bold text-lg tracking-wider uppercase mb-2 block">Our Mission</span>
           <EditableText
             id="home_mission_title"
-            defaultText="모두가 소외되지 않는 사회를 위한\n변화와 화합의 동반자"
+            defaultText="모두가 소외되지 않는 사회를 위한 변화와 화합의 동반자"
             as="h2"
             multiline
             className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 whitespace-pre-line"
